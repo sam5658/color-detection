@@ -35,6 +35,9 @@ while True:
     
     cv2.imshow( "hsv" , img )
     cv2.imshow( "mask" , mask)
+ 
+ 
+ 
     if cv2.waitKey(1) & 0xff == ord('q') :
         break
     
